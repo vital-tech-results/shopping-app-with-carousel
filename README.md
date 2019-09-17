@@ -1,5 +1,7 @@
 This project is stage 2 of the interview process with Anatta Design. 
 
+* view a [live demo of this project here](https://dominick-designs.github.io/shopping-app-with-carousel/)
+
 * I implemented an API call to parse JSON objects
 * I needed to make 2 different ```fetch``` requests
   * one to get the images
