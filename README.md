@@ -1,3 +1,16 @@
+This project is stage 2 of the interview process with Anatta Design. 
+
+* I implemented an API call to parse JSON objects
+* I needed to make 2 different ```fetch``` requests
+  * one to get the images
+  * one to get the products details
+* I used React via ```create-react-app```
+* jQuery is forbidden
+* use of libraries, including bootstrap, is forbidden 
+* The product images (as well as price and product name) under "You'll also like" are dynamically produced from fetch
+* I used flexbox 
+----
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
