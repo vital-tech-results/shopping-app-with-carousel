@@ -9,6 +9,19 @@ This project is stage 2 of the interview process with Anatta Design.
 * use of libraries, including bootstrap, is forbidden 
 * The product images (as well as price and product name) under "You'll also like" are dynamically produced from fetch
 * I used flexbox 
+
+---
+## Known issues
+
+* I am still working on the Carousel
+* Mobile view distorts the footer as well as prices under images
+
+## Roadmap
+
+* Fix mobile view issues
+* Fix Carousel
+
+
 ----
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
