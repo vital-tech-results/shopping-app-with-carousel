@@ -28,18 +28,9 @@ ul {
 .flex-column-headers {
     display: flex;
     justify-content: space-around;
+    flex-flow: wrap;
 }
 
-.flex-column {
-    display: flex;
-    justify-content: space-around;
-}
-
-.flex-footer {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-}
 
 /* copyright at bottom of page */
 #copyright {
@@ -73,17 +64,40 @@ ul {
     color: #a0a0a0;
 }
 
+/* nav bar */
+
 .container {
+    width: 100%;
+    border-bottom: 1px solid gray;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background: #fff;
+}
+
+.nav {
+    display: flex;
+    flex: 1;
     align-items: center;
     height: 100%;
     min-height: 100%;
 }
 
-/* nav bar */
-.logo {
+.left-menu {
     order: 1;
+}
+
+.middle-menu {
+    order: 2;
+    justify-content: center;
+    align-self: center;
+    flex-grow: 1;
+}
+
+.right-menu {
+    justify-content: flex-end;
+    order: 3;
 }
 
 .item {
@@ -93,17 +107,13 @@ ul {
     padding: 24px;
 }
 
-.item:nth-of-type(n+3) {
-    order: 2;
-}
-
 @media all and (max-width: 800px) {
     .container {
         flex-direction: column;
         align-items: stretch;
     }
 
-    .logo {
+    .middle-menu {
         order: 0;
         text-align: center;
         width: 100px;
@@ -118,31 +128,16 @@ ul {
 
 /* end nav bar */
 
-/* "you'll also like" photo container just above footer */
-.photo-container ul {
+
+/*recommendations sections photo container just above footer */
+.photo-container {
+    /*was ul here */
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    -ms-align-items: flex-start;
-    align-items: flex-start;
 }
 
-.photo-container ul li {
-    width: 220px;
-    height: 165px;
-    overflow: hidden;
-    margin-bottom: 15px;
-}
-
-.photo-container ul img {
-    width: 100%;
-    transform: scale(1.25);
-    transition: transform 1.25s;
-}
-
-.photo-container li:hover img {
-    transform: scale(1.65);
-}
+/* end recommendations sections */
 
 /* main and aside */
 .mainContainer {

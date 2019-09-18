@@ -14,47 +14,42 @@ export default class Footer extends Component {
                     <div>|</div>
                     <div><i className="fas fa-box"></i>Free Returns</div>
                 </div>
-
-                <footer className="black-bg">
-
+                <footer>
                     <div className="flex-column-headers">
-                        <h3>Men</h3>
-                        <h3>Women</h3>
-                        <h3>Support</h3>
-                        <h3>About</h3>
-                        <h3>Pop Up Stories</h3>
-                        <h3>Newsletter</h3>
-                    </div>
-
-                    <div className="flex-column">
-                        <ul>
-                            <li>OCA Low</li>
-                            <li>OCA High</li>
-                            <li>CATIBA Low</li>
-                            <li>CATIBA High</li>
-                        </ul>
-                        <ul>
-                            <li>OCA Low</li>
-                            <li>OCA High</li>
-                            <li>CATIBA Low</li>
-                            <li>CATIBA High</li>
-                        </ul>
-                        <ul>
-                            <li>FAQ</li>
-                            <li>Returns</li>
-                            <li>Live Chat</li>
-                        </ul>
-                        <ul>
-                            <li>Mission</li>
-                            <li>Vision</li>
-                            <li>Future</li>
-                        </ul>
-                        <ul>
-                            <li>Find near you</li>
-                            <li>Register</li>
-                        </ul>
-                        <ul>
-                            <li>
+                        <div>
+                            <h3>Men</h3>
+                            <p>OCA Low</p>
+                            <p>OCA High</p>
+                            <p>CATIBA Low</p>
+                            <p>CATIBA High</p>
+                        </div>
+                        <div>
+                            <h3>Women</h3>
+                            <p>OCA Low</p>
+                            <p>OCA High</p>
+                            <p>CATIBA Low</p>
+                            <p>CATIBA High</p>
+                        </div>
+                        <div>
+                            <h3>Support</h3>
+                            <p>FAQ</p>
+                            <p>Returns</p>
+                            <p>Live Chat</p>
+                        </div>
+                        <div>
+                            <h3>About</h3>
+                            <p>Mission</p>
+                            <p>Vision</p>
+                            <p>Future</p>
+                        </div>
+                        <div>
+                            <h3>Pop Up Stories</h3>
+                            <p>Find near you</p>
+                            <p>Register</p>
+                        </div>
+                        <div>
+                            <h3>Newsletter</h3>
+                            <div>
                                 <div>
                                     <input type="email" name="email" id="email" value="Enter email" readOnly /><button>Join Us</button>
                                 </div>
@@ -62,10 +57,11 @@ export default class Footer extends Component {
                                     <i className="fab fa-instagram fab-footer"></i>
                                     <i className="fab fa-facebook-square fab-footer"></i>
                                 </div>
-                            </li>
-                        </ul>
-
+                            </div>
+                        </div>
                     </div>
+                </footer>
+                <footer>
                     <hr />
                     <div id="copyright">
                         <section>
@@ -73,6 +69,9 @@ export default class Footer extends Component {
             </section>
                     </div>
                 </footer>
+
+
+
             </div>
         )
     }

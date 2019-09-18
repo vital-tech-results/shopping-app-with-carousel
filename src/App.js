@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Suggestions from './components/Suggestions';
-import Carousel from './components/Carousel';
+import Recommendation from './components/Recommendation';
 import Aside from './components/Aside';
 import Main from './components/Main';
-import Gallery from './components/Gallery';
+// import Recommendations from './components/Recommendations';
+// import Gallery from './components/Gallery';
+// import Carousel from './components/Carousel';
 
 export default class App extends Component {
 
@@ -53,21 +54,15 @@ export default class App extends Component {
 
 
   render() {
-    console.log(this.state.products)
-
-    if (this.state.products.length > 0) {
-      // this.state.photos.forEach((url) => {
-      //   console.log(url.url)
-      // });
-      console.log('more than zero')
-    }
-
+    // if (this.state.products.length > 0) {
+    //   console.log(this.state.products)
+    // }
     return (
       <div className="react-container">
         <Header />
         <Main />
         <Aside />
-        <Suggestions photos={this.state.photos} products={this.state.products} />
+        <Recommendation photos={this.state.photos} products={this.state.products} />
         <Footer />
       </div>
     );

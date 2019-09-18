@@ -14,12 +14,12 @@ const Carousel1 = (props) => {
 
 
     const listOfImages = <Carousel >
-        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide1" />
-        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide2" />
-        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide3" />
-        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide4" />
-        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide5" />
-        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide6" />
+        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide1" alt="" />
+        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide2" alt="" />
+        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide3" alt="" />
+        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide4" alt="" />
+        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide5" alt="" />
+        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide6" alt="" />
     </Carousel>
     return (
         <React.Fragment>
