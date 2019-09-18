@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/shopping-app-with-carousel/static/css/main.d0f9a210.chunk.css",
-    "main.js": "/shopping-app-with-carousel/static/js/main.8880a88d.chunk.js",
-    "main.js.map": "/shopping-app-with-carousel/static/js/main.8880a88d.chunk.js.map",
+    "main.css": "/shopping-app-with-carousel/static/css/main.bbe190cf.chunk.css",
+    "main.js": "/shopping-app-with-carousel/static/js/main.0be86543.chunk.js",
+    "main.js.map": "/shopping-app-with-carousel/static/js/main.0be86543.chunk.js.map",
     "runtime~main.js": "/shopping-app-with-carousel/static/js/runtime~main.aeec5e86.js",
     "runtime~main.js.map": "/shopping-app-with-carousel/static/js/runtime~main.aeec5e86.js.map",
-    "static/js/2.64e9d408.chunk.js": "/shopping-app-with-carousel/static/js/2.64e9d408.chunk.js",
-    "static/js/2.64e9d408.chunk.js.map": "/shopping-app-with-carousel/static/js/2.64e9d408.chunk.js.map",
+    "static/js/2.c7961e22.chunk.js": "/shopping-app-with-carousel/static/js/2.c7961e22.chunk.js",
+    "static/js/2.c7961e22.chunk.js.map": "/shopping-app-with-carousel/static/js/2.c7961e22.chunk.js.map",
     "index.html": "/shopping-app-with-carousel/index.html",
-    "precache-manifest.d5e54bcf43575b8d867ee69edb7e6fa2.js": "/shopping-app-with-carousel/precache-manifest.d5e54bcf43575b8d867ee69edb7e6fa2.js",
+    "precache-manifest.95bfb5f2d0fb543839ab1092bb945d0c.js": "/shopping-app-with-carousel/precache-manifest.95bfb5f2d0fb543839ab1092bb945d0c.js",
     "service-worker.js": "/shopping-app-with-carousel/service-worker.js",
-    "static/css/main.d0f9a210.chunk.css.map": "/shopping-app-with-carousel/static/css/main.d0f9a210.chunk.css.map"
+    "static/css/main.bbe190cf.chunk.css.map": "/shopping-app-with-carousel/static/css/main.bbe190cf.chunk.css.map"
   }
 }
