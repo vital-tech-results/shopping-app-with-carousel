@@ -3,11 +3,10 @@ import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Recommendation from './components/Recommendation';
-import Aside from './components/Aside';
-import Main from './components/Main';
-// import Recommendations from './components/Recommendations';
-// import Gallery from './components/Gallery';
-// import Carousel from './components/Carousel';
+// import ProductDetail from './components/ProductDetail';
+import ProductDetail from './components/ProductDetail';
+import 'pure-react-carousel/dist/react-carousel.es.css';
+
 
 export default class App extends Component {
 
@@ -60,8 +59,9 @@ export default class App extends Component {
     return (
       <div className="react-container">
         <Header />
-        <Main />
-        <Aside />
+        {/* <ProductDetail /> */}
+        <ProductDetail photos={this.state.photos} />
+
         <Recommendation photos={this.state.photos} products={this.state.products} />
         <Footer />
       </div>

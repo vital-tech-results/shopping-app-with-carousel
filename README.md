@@ -1,27 +1,27 @@
-This project is stage 2 of the interview process with Anatta Design. 
 
 * view a [live demo of this project here](https://dominick-designs.github.io/shopping-app-with-carousel/)
 
 * I implemented an API call to parse JSON objects
-* I needed to make 2 different ```fetch``` requests
+* I made 2 different ```fetch``` requests
   * one to get the images
   * one to get the products details
 * I used React via ```create-react-app```
-* jQuery is forbidden
-* use of libraries, including bootstrap, is forbidden 
 * The product images (as well as price and product name) under "You'll also like" are dynamically produced from fetch
 * I used flexbox 
 
 ---
 ## Known issues
 
-* I am still working on the Carousel
-* Mobile view distorts the footer as well as prices under images
+* Carousel details are not optimal
+* Product details with colors are not dynamic (currently it's an imaged exported from Sketch)
+* Mobile view could be improved
 
 ## Roadmap
 
 * Fix mobile view issues
 * Fix Carousel
+* Add colors and other details to product details
+* Add thumbnails to Carousel
 
 
 ----
