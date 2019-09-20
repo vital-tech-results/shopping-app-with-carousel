@@ -112,11 +112,19 @@ ul {
         align-items: stretch;
     }
 
+    .left-menu {
+        justify-content: center;
+    }
+
     .middle-menu {
         order: 0;
         text-align: center;
         width: 100px;
         margin: auto auto 20px;
+    }
+
+    .right-menu {
+        justify-content: center;
     }
 
     .item {

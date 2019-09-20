@@ -1,20 +1,38 @@
 
 * view a [live demo of this project here](https://dominick-designs.github.io/shopping-app-with-carousel/)
 
+---
+
+## Technologies 
+
 * implemented an API call to parse JSON objects
 * made 2 different ```fetch``` requests
   * one to get the images
   * one to get the products details
 * used React via ```create-react-app```
+* * React components
 * The product images (as well as price and product name) under "You'll also like" are dynamically produced from fetch
-* used flexbox 
+* pure-react-carousel module
+* Flexbox
 
 ---
+
+## To run this app locally
+
+* clone this git repo to your local machine
+* cd into the directory
+* run ```npm i --save```
+* run ```npm start```
+
+---
+
 ## Known issues
 
 * Carousel details are not optimal
 * Product details with colors are not dynamic (currently it's an imaged exported from Sketch)
 * Mobile view could be improved
+
+---
 
 ## Roadmap
 
