@@ -1,13 +1,13 @@
 
 * view a [live demo of this project here](https://dominick-designs.github.io/shopping-app-with-carousel/)
 
-* I implemented an API call to parse JSON objects
-* I made 2 different ```fetch``` requests
+* implemented an API call to parse JSON objects
+* made 2 different ```fetch``` requests
   * one to get the images
   * one to get the products details
-* I used React via ```create-react-app```
+* used React via ```create-react-app```
 * The product images (as well as price and product name) under "You'll also like" are dynamically produced from fetch
-* I used flexbox 
+* used flexbox 
 
 ---
 ## Known issues
